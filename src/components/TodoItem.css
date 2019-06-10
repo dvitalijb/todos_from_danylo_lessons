@@ -1,0 +1,13 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.item .remove {
+    display: none;
+    text-decoration: none;
+    color: red;
+}
+
+.item:hover .remove {
+    display: inline;
+}
